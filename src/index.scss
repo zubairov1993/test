@@ -1,0 +1,32 @@
+@font-face{
+  font-family: Exo2;
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/Exo2.0-Thin.otf');
+}
+  
+@font-face{
+  font-family: Trebuchet MS;
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('./fonts/TrebuchetMS.woff');
+}
+   
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Exo2', 'Trebuchet MS', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

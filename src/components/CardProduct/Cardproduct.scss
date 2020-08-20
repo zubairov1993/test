@@ -1,0 +1,93 @@
+.card{
+  width: 320px;
+  height: 480px;
+  margin: 10px;
+  position: relative;
+  background: url('../../images/back_1.png') no-repeat;
+  background-size: contain;
+  .heading{
+    font-family: Trebuchet MS;
+    padding-top: 24px;
+    padding-left: 49px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #666666;
+  }
+  .title{
+    font-family: Trebuchet MS;
+    padding-left: 49px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+  }
+  .label{
+    font-family: Trebuchet MS;
+    padding-left: 49px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+  }
+  .subtitle{
+    font-family: Trebuchet MS;
+    width: 120px;
+    padding-top: 16px;
+    padding-left: 49px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #666666;
+  }
+  .present{
+    font-family: Trebuchet MS;
+    width: 125px;
+    padding-left: 49px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #666666;
+  }
+  .price{
+    font-family: Trebuchet MS;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    span{
+      font-size: 21px;
+      display: block;
+      padding-top: 5px;
+    }
+  }
+  .circle{
+    font-family: Trebuchet MS;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: #1698d9;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+  .circleActive{
+    background-color: #d91667;
+  }
+  .circleEnded{
+    background-color: #b3b3b3;
+  }
+}
+
+.active{
+  background: url('../../images/back_2.png') no-repeat;
+}
+
+.ended{
+  background: url('../../images/back_3.png') no-repeat;
+}
+
+
+
